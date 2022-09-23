@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KU admission seat plan</title>
+		<style>
+			body {background:#33638e}
+			
+			.form_1 {width:300px; margin:0 auto}
+			.select_unit {width:300px;height:50px; margin-top:50px; font-size:18px;color:#000000}
+			.form_2 {width:300px; margin:0 auto}
+			.insert {width:290px ;height:50px; margin-top:50px; font-size:18px;color:#000000;border:5px solid #477299}
+			.submit {width:200px;height:40px;margin:50px auto;font-size:18px;color:#ded8d8;background:#8f364f;border:none;margin-left:50px}
+			.container {width:300px; margin:50px auto}
+			.container p {}
+			.container p a {font-size:18px;text-decoration:none;color:#101111;padding:10px}
+			.button_one {background:#8aaba1}
+			.button_two {background:#75ad9b}
+			.button_three {background:#6aaf99}
+			.button_four {background:#164b69;text-align:center}
+		</style>
+	</head>
+	<body>
+		<div class="form_area">
+			<form class="form_1">
+				<select name="select_unit" class="select_unit">
+					<option>Select Unit</option>
+					<option>Management & Business Administration School</option>
+					<option>Science, Engineering & Technology School</option>
+					<option>Life Science School</option>
+					<option>Arts & Humanities School</option>
+					<option>Institute of Fine Arts</option>
+					<option>Social Science School</option>
+					<option>Law School</option>
+				</select>
+			</form>
+			
+			<form class="form_2" name="input" action="html_form_action.asp" method="get">
+				<input class="insert" type="text" name="insert" placeholder="Insert Roll Number"/><br/> 
+				<input class="submit" type="submit" value="Submit"/>
+			</form>
+		</div>
+		
+		<div class="container">
+			<p class="button_one"><a href="#">Venue</a></p>
+			<p class="button_two"><a href="#">Building</a></p>
+			<p class="button_three"><a href="#">Floor & Room</a></p>
+			<p class="button_four"><a href="#">View Map</a></p>
+		</div>
+		
+	</body>
+</html>
